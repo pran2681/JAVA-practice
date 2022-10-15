@@ -9,15 +9,15 @@ public class sum {
         int a = sc.nextInt();
         int b =sc.nextInt();
 
-        printSum(a, b);//method calling
+        int sum = printSum(a, b);//method calling
+        System.out.println("Sum = " +sum);
 
         sc.close();
 
     }
 
     public static void printSum(int a,int b){
-        int sum=a+b;
-        System.out.println("Sum = "+sum);
-        return;
+        int sum=a+b
+        return sum;
     }
 }
